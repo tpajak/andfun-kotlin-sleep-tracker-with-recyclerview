@@ -42,11 +42,9 @@ class SleepNightAdapter: RecyclerView.Adapter<TextItemViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TextItemViewHolder {
 
         val layoutInflater = LayoutInflater.from(parent.context)
-        val view = layoutInflater.inflate(R.layout.text_item_view, parent, false) as TextView
+        val view = layoutInflater
+            .inflate(R.layout.text_item_view, parent, false) as TextView
 
         return TextItemViewHolder(view)
-
-
-        //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 }
