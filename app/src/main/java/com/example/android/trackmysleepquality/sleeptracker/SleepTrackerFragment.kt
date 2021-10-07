@@ -102,7 +102,6 @@ class SleepTrackerFragment : Fragment() {
         val manager = GridLayoutManager(activity, 3)
         binding.sleepList.layoutManager = manager
 
-        // TODO (07) Pass a SleepNightListener callback to the SleepNightAdapter.
         val adapter = SleepNightAdapter(SleepNightListener { sleepId: Long ->
                 Toast.makeText(context, "$sleepId Clicked", Toast.LENGTH_SHORT).show()})
         binding.sleepList.adapter = adapter

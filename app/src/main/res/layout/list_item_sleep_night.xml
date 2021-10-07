@@ -15,7 +15,6 @@
             type="com.example.android.trackmysleepquality.sleeptracker.SleepNightListener" />
     </data>
 
-    <!-- TODO (03) Set ConstrainLayout's onClick property to clickListener. -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
